@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Marvel Comics Shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <base href="http://localhost/mitienda/">
+        <link rel="stylesheet" href="theme/dpr/css/fontello.css">
+        <link rel="stylesheet" href="theme/dpr/css/estilos.css">
+        <!--<link rel="stylesheet" href="theme/dpr/css/main.css">-->
+        <script src="theme/dpr/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="theme/dpr/js/jquery.min.js"></script>
+        <script src="theme/dpr/js/jquery.validate.min.js"></script>  
+        <script src="theme/dpr/js/main.js"></script>   
+        <script src="theme/dpr/js/messages.js"></script>
+        <script src="theme/dpr/js/scripts.js"></script> 
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <img id="logo" src="theme/dpr/img/MarvelLogo.png"/>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                
+                <nav class="menu">
+                    <a href="../../../index.php">Home</a>
+                    <a href="theme/dpr/html/sports.html">Comics</a>
+                    <a href="theme/dpr/html/aboutus.html">About Us</a>
+                    <a href="theme/dpr/html/contacus.html">Contact Us</a>
+                    {login}
+                    {carrito}
+                    
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="banner">
+				<img src="theme/dpr/img/banner.jpg">
+				<div class="contenedor">
+					<h2>Marvel Avengers</h2>
+					<p>What is the best hero for you?</p>
+					
+				</div>
+			</section>
+        <section id="bienvenidos">
+				<div class="contenedor">
+					<h2>Avengers</h2>
+					<p>Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle. With a roster that has included Captain America, Iron Man, Ant-Man, Hulk, Thor, Wasp and dozens more over the years, the Avengers have come to be regarded as Earth's No. 1 team.</p>
+				</div>
+			</section>
+			
+			<section id="blog">
+				<h3>Lo último de nuestro blog</h3>
+				<div class="contenedor">
+					<article>
+						<img src="theme/dpr/img/pet-blog1.jpg">
+						<h4>Esconge tu mascota perfecta</h4>
+					</article>
+					<article>
+						<img src="theme/dpr/img/pet-blog2.jpg">
+						<h4>Capitan América</h4>
+					</article>
+					<article>
+						<img src="theme/dpr/img/pet-blog3.jpg">
+						<h4>The Incredible Hulk</h4>
+					</article>
+				</div>
+			</section>
+			
+			<section id="info">
+				<h3>{precontenido}</h3>
+                               
+                                
+				<div class="contenedor">
+					
+					<div class="info-pet">
+                                                
+						{contenido}
+                                 
+					</div>
+					<div class="info-pet">
+						{postcontenido}
+					</div>
+					
+				</div>
+			</section>
+			
+		</main>
+
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Marvel Comics Shop &copy; DAW PHP,HTML5,CSS3,JS,JQUERY 2016</p>
+                <div class="sociales">
+                    <a class="icon-facebook" href="#"></a>
+                    <a class="icon-twitter" href=""></a>
+                    <a class="icon-instagram" href=""></a>
+                    <a class="icon-googleplus" href=""></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

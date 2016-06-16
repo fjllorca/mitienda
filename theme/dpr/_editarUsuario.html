@@ -1,0 +1,16 @@
+<h2>Editar Usuario: {correo}</h2>
+<form method="post" id="formulario" name="formulario">
+    <input name="ruta" type="hidden" value="usuario">
+    <input name="accion" type="hidden" value="editar">
+    &nbsp;<input type="hidden"  name="email" value="{correo}" />
+    Clave:&nbsp;<input type="password"  id="clave" name="clave" value="{clave}" /><br/><br/>
+    Clave2:&nbsp;<input type="password" id="clave2"  name="clave2" value="{clave}" /><br/><br/>
+    Nombre:&nbsp; <input type="text" id="nombre"  name="nombre" value="{nombre}" /><br/><br/>
+    Apellidos:&nbsp;<input type="text" id="apellidos"  name="apellidos" value="{apellidos}" /><br/><br/>
+    Dirección:   <input type="text" id="direccion"  name="direccion" value="{direccion}" /><br/><br/>            
+    Tipo:&nbsp; <input type="text" id="tipo"  name="tipo" value="{tipo}"  /><br/><br/>
+    Activo:&nbsp;   <input type="text" id="activo"  name="activo" value="{activo}" /><br/><br/>
+    Fecha:&nbsp;   <input type="text" id="fecha"  name="fecha" value="{fecha}" /><br/><br/>
+    <input type="submit" class="modi" id="modi" name="modi" value="Modificar"/>
+</form>
+<a href="index.php">Cancelar y volver pá ¡atrás!</a>
